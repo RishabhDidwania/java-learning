@@ -1,4 +1,4 @@
-package com.interfaceNotes.interfaceStaticMethod;
+package com.learning.interfaceNotes.interfaceStaticMethod;
 
 interface A{
     static void sayHello(){

@@ -1,4 +1,4 @@
-package com.adhodquestion;
+package com.learning.adhodquestion;
 
 
 import java.util.Arrays;

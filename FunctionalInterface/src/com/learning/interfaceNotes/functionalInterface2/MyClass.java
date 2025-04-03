@@ -1,4 +1,4 @@
-package com.lambdaNotes;
+package com.learning.interfaceNotes.functionalInterface2;
 
 public class MyClass {
     public static void main(String[] args) {

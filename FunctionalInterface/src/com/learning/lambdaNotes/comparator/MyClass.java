@@ -1,4 +1,4 @@
-package com.lambdaNotes.comparator;
+package com.learning.lambdaNotes.comparator;
 
 
 // Comparator has only is a functional interface
@@ -15,7 +15,7 @@ public class MyClass {
     public static void main(String[] args) {
 
         Integer[][] intArray = {{1,3},{2,6},{8,10},{15,18}} ;
-        Integer[] temp =  {1,2,3,4};
+//        Integer[] temp =  {1,2,3,4};
 
         // Convert 2d array to list
 //        ArrayList<ArrayList<Integer>> arList = new ArrayList<>();

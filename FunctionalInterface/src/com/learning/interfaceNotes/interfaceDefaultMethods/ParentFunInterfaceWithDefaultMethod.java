@@ -1,4 +1,4 @@
-package com.interfaceNotes.interfaceDefaultMethods;
+package com.learning.interfaceNotes.interfaceDefaultMethods;
 
  interface ParentFunInterfaceWithDefaultMethod {
      default void sayYourName(){

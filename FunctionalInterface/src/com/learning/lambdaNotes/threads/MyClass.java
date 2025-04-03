@@ -1,4 +1,4 @@
-package com.lambdaNotes.threads;
+package com.learning.lambdaNotes.threads;
 
 public class MyClass implements Runnable{
 

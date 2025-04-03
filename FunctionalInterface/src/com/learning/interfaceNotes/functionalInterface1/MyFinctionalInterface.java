@@ -1,4 +1,4 @@
-package com.interfaceNotes.functionalInterface1;
+package com.learning.interfaceNotes.functionalInterface1;
 
 /*
 * FunctionalInterface annotation is used to ensure that the interface has only one abstract method.
