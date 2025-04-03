@@ -7,22 +7,26 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Stream;
 
 
 public class MyClass {
 
     public static void main(String[] args) {
-        int[][] intervals = {{1,2}, {6,9},{2,3}, {3,4}};
-        Arrays.stream intervalsstream().map(a -> Arrays.toList(a)).
 
         Integer[][] intArray = {{1,3},{2,6},{8,10},{15,18}} ;
         Integer[] temp =  {1,2,3,4};
+
+        // Convert 2d array to list
+//        ArrayList<ArrayList<Integer>> arList = new ArrayList<>();
+//        for (Integer[] subarray: intArray)  arList.add(new ArrayList(Arrays.asList(subarray)));
 
         // we can use lambda expression to implement the interface Comparator
 
         Arrays.sort(intArray, (a, b) -> a[0] - b[0]);
 
 //        Arrays.stream(intArray[0]).forEach(a -> System.out.println(a));
+//        Solution to https://leetcode.com/problems/merge-intervals/
 
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
         int i=0;
@@ -39,6 +43,7 @@ public class MyClass {
         System.out.println(list);
 
 //        list.stream().map(a -> a.toArray(new Integer[0])).toArray(Integer::new);
+
     }
 
 }
