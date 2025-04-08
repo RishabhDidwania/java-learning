@@ -13,7 +13,7 @@ public class StreamTest {
 
     public static void main(String[] args){
         List<Integer> list = Arrays.asList(1,2,3,4,5);
-        System.out.println(list.stream().filter(l -> l%2!=0 ).map(e->e*3).reduce(0, Integer::sum));
+        System.out.println(list.stream().filter(l -> l%2!=0 ).map(e->e*3 ).reduce(0, Integer::sum));
 
     }
 }

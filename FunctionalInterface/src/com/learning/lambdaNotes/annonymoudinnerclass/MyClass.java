@@ -22,4 +22,7 @@ public class MyClass {
 
         e.getSalary();
     }
+    void abc(){
+        System.out.println();
+    }
 }

@@ -1,6 +1,7 @@
 package com.learning.streamslearning;
 
 import java.util.*;
+import java.util.concurrent.Callable;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -11,6 +12,11 @@ public class MyClass {
 
 
  public static void main(String[] args){
+
+     Stack<Integer> st = new Stack<>();
+     st.push(5);
+
+     System.out.println("stack"+st.pop());
         String s = "Rishabh";
         Map<String, Long>  res =   Arrays.stream(s.split("")).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 //     System.out.println(s.split(""));
@@ -24,7 +30,6 @@ public class MyClass {
 // Problem 1: Write a Program to find the Maximum element in an array?
                 List<Integer> list = Arrays.asList(1,2,3,7,4,9999);
      list.stream().max((e,v)->v-e).ifPresent(System.out::println);
-
 
 
      //Problem 3: Given two arrays of Person objects, merge them, sort them by age in ascending order, and then by name alphabetically for people with the same age.
