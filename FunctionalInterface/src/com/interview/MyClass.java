@@ -3,6 +3,9 @@ package com.interview;
 import java.util.Map;
 import java.util.concurrent.Semaphore;
 
+//JPMC
+
+
 public class MyClass {
     // Values should not be lost by
     // If ti exceeds we will remove the first // We can use queue
@@ -55,6 +58,8 @@ public class MyClass {
 //
 //
 //Semaphore
+
+
 
 
 

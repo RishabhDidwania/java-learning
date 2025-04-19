@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 class MultiThreadHandle {
-    public void test1() {
+    public synchronized void test1() {
         System.out.println("Inside Test1 Method");
         while (true) {
             try {
@@ -14,7 +14,7 @@ class MultiThreadHandle {
             }
         }
     }
-    public static void test2() {
+    public synchronized static void test2() {
         System.out.println("Inside Test2 Method");
         while (true) {
             try {

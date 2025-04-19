@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" filepath="$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/java-streams.iml" filepath="$PROJECT_DIR$/.idea/java-streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadsQuestions/ThreadsQuestions.iml" filepath="$PROJECT_DIR$/ThreadsQuestions/ThreadsQuestions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-design/java-design.iml" filepath="$PROJECT_DIR$/java-design/java-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-learning.iml" filepath="$PROJECT_DIR$/.idea/java-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
     </modules>
   </component>
 </project>

@@ -3,10 +3,7 @@ package com.learning.lambdaNotes.comparator;
 
 // Comparator has only is a functional interface
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Stream;
 
 
@@ -41,6 +38,7 @@ public class MyClass {
                 i = i+j;
         }
         System.out.println(list);
+                Queue
 
 //        list.stream().map(a -> a.toArray(new Integer[0])).toArray(Integer::new);
 
