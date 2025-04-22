@@ -1,9 +1,8 @@
+package ObserverPattern;
+
 import ObserverPattern.Observable.Implementations.ProductStockImp;
-import ObserverPattern.Observable.ProductStock;
 import ObserverPattern.Observer.UserNotification;
 import ObserverPattern.Observer.implementations.EmailUserNotification;
-
-import java.util.UUID;
 
 public class Main {
     public static void main(String[] args) {
